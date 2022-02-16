@@ -25,7 +25,7 @@
         <!-- top players and top blogs -->
         <section class="container">
             <div class="top-players">
-                <h2 class="section-title">Top Players</h2>
+                <h2 id="top-play-22" class="section-title">Top Players 2020</h2>
                 <div class="players">
                     <div class="player">
                         <img src="images/players/player-1.png" alt="">
@@ -62,7 +62,7 @@
             <hr>
 
             <div class="top-blogs">
-                <h2 class="section-title">Top Blogs</h2>
+                <h2 id="top-blg" class="section-title">Top Blogs</h2>
                 <div class="blogs">
 
                     <article class="blog">
@@ -211,8 +211,26 @@
             </div>
         </section>
 
+        <section>
+            <ul id="item-ul">
+                <li>javascript</li>
+                <li>python</li>
+                <li>java</li>
+            </ul>
+            <button style="background-color: burlywood; padding: 10px; border-radius: 8px;" onclick="itemAddBtn()">Click
+                to Add</button>
+        </section>
+
+        <section style="margin-top: 15px;">
+            <input id="num-inp" style="font-size: 15px; padding: 8px;" type="number" value="0">
+            <button id="increase-btn" style="background-color: pink; padding: 10px; border-radius: 8px;">Click
+                to increase</button>
+        </section>
+
     </main>
 
+    <!-- js -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
